@@ -1,0 +1,6 @@
+dependencies:
+  - name: tabulator
+    version: 5.5.2
+    src: htmlwidgets/tabulator
+    script: tabulator.min.js
+    stylesheet: tabulator.min.css
