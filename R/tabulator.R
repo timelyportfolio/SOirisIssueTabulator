@@ -1,9 +1,9 @@
 #' @import htmlwidgets
 #' @export
-tabulator <- function(message, width = NULL, height = NULL, elementId = NULL) {
+tabulator <- function(data = NULL, width = NULL, height = NULL, elementId = NULL) {
 
   x = list(
-    message = message
+    data = data
   )
 
   ## Add this line to template
